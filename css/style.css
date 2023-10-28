@@ -4,6 +4,58 @@
     box-sizing: content-box;
 }
 
+body{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/6535.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
     color: red;
 }
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* Estilos para el nav en el header */
+header nav {
+    background-color: #9bb9cd7d; /* Color de fondo */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px 0; /* Espaciado interior */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 5px;
+    
+}
+
+/* Estilos para los enlaces del nav */
+header nav ul {
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0;
+}
+
+header nav li {
+    display: inline; /* Los elementos de la lista se muestran en línea */
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+header nav a {
+    text-decoration: none; /* Elimina el subrayado en los enlaces */
+    color: white; /* Color del texto en los enlaces */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Estilo de fuente negrita */
+    transition: all 500ms;
+}
+
+/* Estilos para los enlaces al pasar el mouse por encima */
+header nav a:hover {
+    color: #0C325F; /* Cambia el color del texto al pasar el mouse por encima */
+    background-color: #C0E3F3;
+    border-radius: 8px;
+    padding: 5px;
+    transition: all 500ms;
+}
+
