@@ -5,14 +5,12 @@
 }
 
 body{
-    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/6535.jpg");
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/5839.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1 {
-    color: red;
-}
+
 header{
     width: 100%;
     display: flex;
@@ -20,7 +18,7 @@ header{
 }
 /* Estilos para el nav en el header */
 header nav {
-    background-color: #9bb9cd7d; /* Color de fondo */
+    background-color: #fdcf00a5; /* Color de fondo */
     text-align: center; /* Centra el texto horizontalmente */
     padding: 10px 0; /* Espaciado interior */
     display: flex;
@@ -52,10 +50,52 @@ header nav a {
 
 /* Estilos para los enlaces al pasar el mouse por encima */
 header nav a:hover {
-    color: #0C325F; /* Cambia el color del texto al pasar el mouse por encima */
-    background-color: #C0E3F3;
+    color: rgb(255, 255, 255); /* Cambia el color del texto al pasar el mouse por encima */
+    background-color: #f6e22ec9;
     border-radius: 8px;
     padding: 5px;
     transition: all 500ms;
 }
 
+/* section de bienvenida */
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.box {
+    background-color: #ffd000d1;
+    color: black;
+    width: 80%;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    
+    
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con igual anchura */
+    grid-gap: 15px; /* Espacio entre las imágenes */
+    padding: 15px;
+  }
+  
+  /* Estilo para las imágenes */
+  .image-grid img {
+    width: 100%; /* Ajustar imágenes al ancho del contenedor */
+    height: auto; /* Mantener la proporción de aspecto original */
+    border: solid #f2f545 8px;
+    border-radius: 15px;
+    width: 90%;
+    height: 18em;
+    object-fit: cover;
+  }
+
+  
+
+  #MomentosFix {
+    width: 85%;
+  }
